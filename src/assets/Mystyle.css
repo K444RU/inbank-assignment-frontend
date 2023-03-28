@@ -1,0 +1,128 @@
+.MainFlex {
+    text-align: center;
+    min-height: 100vh;
+    background-color: #F3EEFB;
+}
+/*#asd{*/
+/* padding-top: 40px;*/
+
+/*}*/
+
+#apply-for-loan {
+    color: #2B0055;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 1.5rem;
+    transition: all 0.2s;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.flex-column {
+    flex-direction: column !important;
+}
+
+.justify-content-center {
+    justify-content: center !important;
+}
+
+.flex-grow-1 {
+    flex-grow: 1 !important;
+}
+
+.mb-0, .my-0 {
+    margin-bottom: 0 !important;
+}
+
+@media (min-width: 768px) {
+    .mt-md-0, .my-md-0 {
+        margin-top: 0 !important;
+    }
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+.display-1 {
+    font-size: 4.5rem;
+    font-weight: 300;
+    line-height: 1.25;
+}
+
+.overlay-wrap__always-on {
+    background-color: rgba(43, 0, 85, 0.7);
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+.container {
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 150px;
+}
+.padding-container{
+    padding-top: 40px;
+}
+
+@media (min-width: 768px) {
+    .bg-man-holding-bicycle {
+        background-image: url("https://www.inbank.ee/images/background/bg-man-holding-bicycle_medium.jpg");
+    }
+}
+
+.bg-man-holding-bicycle {
+    background-image: url("https://www.inbank.ee/images/background/bg-man-holding-bicycle_medium.jpg");
+    background-position: top center;
+}
+
+@media (min-width: 768px) {
+    .bg {
+        min-height: 600px;
+    }
+}
+
+.bg {
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text-white {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
+

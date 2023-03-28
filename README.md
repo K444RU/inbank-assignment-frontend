@@ -1,4 +1,4 @@
-# inbank_assignment_vue
+# inbank-assignment-frontend
 
 ## Project setup
 ```
